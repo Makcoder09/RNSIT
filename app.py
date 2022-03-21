@@ -1,4 +1,4 @@
-22222import streamlit as st
+import streamlit as st
 import joblib
 model = joblit.load('spam-ham')
 st.title('SPAM HAM CLASSIFIER')
